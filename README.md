@@ -1,6 +1,6 @@
 # 新澳门预测助手 · Windows 本地工具
 
-当前稳定版：**1.20.0**。**1.21.0 已进入发行草稿核验，尚未发布为稳定版**。下载安装程序后即可运行，无需 Python、Node 或 Go。
+当前稳定版：**1.21.0**。下载安装程序后即可运行，无需 Python、Node 或 Go。
 
 [下载安装程序](https://github.com/90le/new-macau-research/releases/latest/download/NewMacauResearch-Setup.exe) · [版本说明与所有发行包](https://github.com/90le/new-macau-research/releases)
 
@@ -15,7 +15,7 @@
 
 ## 1.21.0 发行说明
 
-发行草稿核验完成后再提供稳定下载，本节说明即将发布的功能范围：
+[查看1.21.0正式发行与下载](https://github.com/90le/new-macau-research/releases/tag/v1.21.0)。本次功能范围：
 
 - 属性任务按各自首选类别门槛显示成绩，列出已观察、所需和仍缺期数。
 - 多任务与历史回放逐球显示来源生肖和参考波色；未来开奖保持未知。
