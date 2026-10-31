@@ -1,6 +1,6 @@
 # 新澳门预测助手 · Windows 本地工具
 
-当前稳定版：**1.23.0**。下载安装程序后即可运行，无需 Python、Node 或 Go。
+当前稳定版：**1.23.1**。下载安装程序后即可运行，无需 Python、Node 或 Go。
 
 [下载安装程序](https://github.com/90le/new-macau-research/releases/latest/download/NewMacauResearch-Setup.exe) · [版本说明与所有发行包](https://github.com/90le/new-macau-research/releases)
 
@@ -12,6 +12,13 @@
 4. 关闭网页不会关闭后台；托盘可打开页面、暂停同步或退出。开机启动按安装时及设置中的选择执行。
 
 电脑关闭或程序退出期间无法生成本机开前预测；恢复后会追齐数据，缺发与失败保留，不补造过去的预测。
+
+## 1.23.1 发行说明
+
+[查看1.23.1正式发行说明与安装包](https://github.com/90le/new-macau-research/releases/tag/v1.23.1)。本次修复后台自动升级被关机、强制结束或安全软件打断后留下的半完成事务：
+
+- 旧行为：再次双击安装包只提示“自动升级事务尚未完成，请用受信Setup --recover-pending在应用退出后恢复”，普通用户无法继续。
+- 新行为：安装包检测到未完成的自动升级会先自动恢复旧版文件并确认能启动（或提交已就绪的新版），随后继续正常安装；修复失败时会说明原因并提示重启后重试。
 
 ## 1.23.0 发行说明
 
